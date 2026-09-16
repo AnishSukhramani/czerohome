@@ -1,0 +1,45 @@
+{
+  "siteUrl": "https://construct-zero.vercel.app",
+  "name": "Construct Zero",
+  "title": "Construct Zero — Hermes on Cursor",
+  "description": "Construct Zero is a local, open-source inference bridge: Hermes is the agent with the tools and memory; Cursor is the model provider your subscription already pays for.",
+  "locale": "en_US",
+  "ogImage": "https://framerusercontent.com/images/kyykodVeQYFVZbLYWKPgR61s.png",
+  "bannedOgImages": [
+    "https://framerusercontent.com/images/U0nEjmohYWmgu9YKofEMW0.png"
+  ],
+  "github": "https://github.com/AnishSukhramani/czerohome",
+  "templateLeakPatterns": [
+    "Atmos",
+    "Climate Data Platform",
+    "waitlist for Atmos",
+    "tracking climate, emissions, and energy data",
+    "strong-years-972506.framer.app"
+  ],
+  "faq": [
+    {
+      "question": "What does Construct Zero do?",
+      "answer": "It connects Hermes Agent to Cursor subscription models through a local OpenAI-compatible adapter."
+    },
+    {
+      "question": "Does Construct Zero run tools?",
+      "answer": "No. Hermes owns and executes all terminal, file, web, skill, memory, and gateway work."
+    },
+    {
+      "question": "Does Cursor become a second agent?",
+      "answer": "No. The Cursor driver stays in ask mode only, providing inference rather than its own agent loop."
+    },
+    {
+      "question": "Do I need another LLM API key?",
+      "answer": "Not for the main path. You need an active Cursor subscription and a Cursor API key."
+    },
+    {
+      "question": "Is this a hosted cloud service?",
+      "answer": "No. Construct Zero is designed for localhost, or a VPS accessed through an SSH tunnel."
+    },
+    {
+      "question": "What is the optional voice feature?",
+      "answer": "A local hold-to-talk sidecar that uses local speech models and speaks verbatim layers from Hermes replies."
+    }
+  ]
+}

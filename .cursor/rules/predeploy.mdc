@@ -1,0 +1,17 @@
+---
+description: After a Framer HTML export is pasted into index.html, run the predeploy sanitizer before finishing.
+alwaysApply: true
+---
+
+# Framer export → predeploy
+
+This repo ships a single Framer `index.html`. A fresh paste reintroduces the Made in Framer badge and template SEO.
+
+When `index.html` is replaced or edited from a Framer export:
+
+1. Run `python3 scripts/predeploy.py`
+2. Follow `PREDEPLOY.md`
+3. Do not hand-edit badge HTML if the script can strip it
+4. Put title, description, canonical, Open Graph, and FAQ copy in `site.meta.json`
+
+Do not leave `#__framer-badge-container`, `__framer-badge`, Atmos metadata, or `*.framer.app` canonical URLs in the shipped file. Do not change Framer page layout to remove the badge.

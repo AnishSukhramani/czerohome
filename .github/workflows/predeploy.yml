@@ -1,0 +1,20 @@
+name: Predeploy
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  predeploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run predeploy tests
+        run: python3 -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Verify index.html is sanitized
+        run: python3 scripts/predeploy.py --check

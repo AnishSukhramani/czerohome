@@ -3,3 +3,5 @@ site.meta.json
 scripts/
 .cursor/
 .vscode/
+tests/
+.github/

@@ -9,6 +9,21 @@
     "https://framerusercontent.com/images/U0nEjmohYWmgu9YKofEMW0.png"
   ],
   "github": "https://github.com/AnishSukhramani/czerohome",
+  "repo_url": "https://github.com/AnishSukhramani/construct-zero",
+  "demoVideoUrl": "https://youtu.be/wUiOjHTjId0",
+  "analytics": {
+    "vercel": false,
+    "umami": {
+      "enabled": false,
+      "website_id": "",
+      "src": "https://cloud.umami.is/script.js",
+      "domains": "construct-zero.vercel.app"
+    }
+  },
+  "cta": {
+    "community_url": "https://github.com/AnishSukhramani/construct-zero/discussions",
+    "required_text": "Join the community"
+  },
   "templateLeakPatterns": [
     "Atmos",
     "Climate Data Platform",
